@@ -78,3 +78,21 @@ If you have questions, feel free to reach out to us!
 
 ## 🚀 Boostrapping
 
+To quickly develop your REST API testing tool, you can consider using the [RestTestGen Framework](https://github.com/SeUniVr/RestTestGen). The framework provides many ready-to-use components to:
+- parse OpenAPI specifications
+- handle HTTP interactions
+- model test cases
+- generate operation parameter values
+- check testing oracles
+- mutate HTTP requests
+- ... and more
+
+All components and the testing engine are easily customizable, to develop brand new testing tools in minutes. For more details, see the RestTestGen Framework [Wiki](https://seunivr.github.io/RestTestGen-Wiki).
+
+### 🔍 Testing the Testing Tool
+
+Before submitting your tool to REST League, please check its compliance with [RESTgym](https://github.com/SeUniVr/RESTgym) for easy deployment and running on our platform.
+
+You can test your tool on the REST APIs provided in the `apis` directory of this repository (see the specific [README](apis/README.md) for details). An example testing tool is provided in the `tools` directory of this repository (see the specific [README](tools/README.md) for details).
+
+> **TODO:** section to be expanded
