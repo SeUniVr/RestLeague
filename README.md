@@ -23,7 +23,7 @@ Tools must meet the following general requirements to participate
 * **Target:** Must be explicitly designed to test REST APIs
 * **Containerized:** Submissions must be easily deployable, via a Docker image
 
-In particular, the tools must be compatible with [RESTgym](https://github.com/SeUniVr/RESTgym), a benchmarking infrastructure specifically designed for REST API testing tools. *Check [here](README.md#-testing-the-testing-tool) the details of our experimental setting*. 
+In particular, the tools must be compatible with [RESTgym](https://github.com/SeUniVr/RESTgym), a benchmarking infrastructure specifically designed for REST API testing tools. *Check [here](#-testing-the-testing-tool) the details of our experimental setting*. 
 
 ### 📊 Evaluation Criteria
 
