@@ -12,7 +12,7 @@ Participants submit their automated **black-box** testing tools to compete again
 
 > What is **black-box** testing?
 >
-> In this context, black-box testing means the tools interact with an API solely via its public endpoints, documented by an **OpenAPI specification**. Tools **generate test cases** by leveraging the specification and the feedback from the API, without looking at the API's internal inomplementation.
+> In this context, black-box testing means the tools interact with an API solely via its public endpoints, documented by an **OpenAPI specification**. Tools **generate test cases** by leveraging the specification and the feedback from the API, without looking at the API's internal implementation.
 
 ### 🛠️ Tool Requirements
 
@@ -23,7 +23,7 @@ Tools must meet the following general requirements to participate
 * **Target:** Must be explicitly designed to test REST APIs
 * **Containerized:** Submissions must be easily deployable, via a Docker image
 
-In particular, the tools must be compatible with [RESTgym](https://github.com/SeUniVr/RESTgym), a benchmarking infrastructure specifically designed for REST API testing tools.
+In particular, the tools must be compatible with [RESTgym](https://github.com/SeUniVr/RESTgym), a benchmarking infrastructure specifically designed for REST API testing tools. *Check [here](README.md#🔍-testing-the-testing-tool) the details of our experimental setting*. 
 
 ### 📊 Evaluation Criteria
 
@@ -31,18 +31,19 @@ Tools will be scored based on a comprehensive set of criteria, focusing on both 
 
 1. **Fault Detection:** The total number of *unique* `5XX` responses obtained by the tool
 2. **Operation Coverage:** The extent of API endpoints succesfully tested (obtaining a `2XX` response)
-3. **Code Coverage:** The extend of API code effectively explored during testing (measuread in terms of methods, statements, and branches covered)
+3. **Code Coverage:** The extent of API code effectively explored during testing (measuread in terms of methods, statements, and branches covered)
 4. **Testing Efficiency:** The time taken and the number of requests needed to achieve the fault and coverage results
 
-The final score will be a weighted aggregate of these metrics. Testing metrics will be collected by using the [RESTats](https://github.com/SeUniVr/restats) tool.
+The final score will be a weighted aggregate of these metrics. Testing metrics will be collected by using the [Restats](https://github.com/SeUniVr/restats) tool.
 
 ## 💡 How to Participate
 
-1. **Register:** Fill out the [**Registration Form**](https://www.google.com) to officially enter your tool
+1. **Register:** Fill out the [**Registration Form**](https://forms.gle/4xmnyoocoD7SGwQ89) to officially enter your tool
 2. **Prepare:** Ensure your tool meets all requirements and is ready for deployment
 3. **Submit:** Provide access to your tool, along with detailed setup and execution instructions
+4. **Document:** Submit a short report (max 2 pages) documenting how the tool works
 
-> **Sandboxed Execution:** All submitted tools will be run in a secure, isolated, and controlled environment by REST League organizers. Details of the machine running the experiments will be provided upon registration.
+> **Sandboxed Execution:** All submitted tools will be run in a secure, isolated, and controlled environment by REST League organizers. Details of the machine running the experiments will be provided after registration.
 
 ### 🗓️ Competition Timeline
 
@@ -50,20 +51,22 @@ REST League will be hosted by [SBFT@ICSE2026](https://search-based-and-fuzz-test
 
 | Date (AoE) | Event |
 | :--- | :--- |
-| **[30/10/2025]** | Call for Participation Opens (Tool Submission) |
+| **[17/10/2025]** | Call for Participation Opens (Tool Registration) |
 | **[05/12/2025]** | Final Deadline for Tool Submission |
 | **[01/01/2026]** | Notification of results |
 | **[26/01/2026]** | Tool report camera ready deadline |
-| **TBA** | 🥇 **REST League Awards Ceremony** |
+| **TBA** | **REST League Awards Ceremony** |
 
 ### 🏆 Awards & Recognition
 
-* **🥇 Gold API Tester:** Highest overall score and ultimate champion
-* **🥈 Silver API Tester:** Second-highest overall score
-* **⭐ Bug Hunter Award:** For the tool with the highest number of unique `5XX` found
-* **💻 Efficiency Expert:** For the tool that achieves high coverage with the lowest resource consumption footprint
+* **🥇 Gold API Tester:** Tool with the highest overall score (ultimate champion)
+* **🥈 Silver API Tester:** Tool with the second-highest overall score
+* **🐞 Bug Hunter:** Tool with the highest number of unique `5XX` found
+* **⚡ Roadrunner:** Tool that achieves the highest coverage with the lowest resource consumption footprint
 
-Winning tools and their creators will be prominently featured on this GitHub page, recognized at the Awards Ceremony, and invited to present their tool during [SBFT@ICSE2026](https://search-based-and-fuzz-testing.github.io/sbft26) in Rio.
+Winning tools and their authors will be prominently featured on this GitHub page, recognized at the Awards Ceremony, and invited to present their tool during [SBFT@ICSE2026](https://search-based-and-fuzz-testing.github.io/sbft26) in Rio.
+
+> **ACM Publication:** The tool report for *all participants* will be included in the SBFT@ICSE2026 proceedings and published by ACM.
 
 ## 🤝 Organizers & Contact
 
@@ -93,6 +96,6 @@ All components and the testing engine are easily customizable, to develop brand 
 
 Before submitting your tool to REST League, please check its compliance with [RESTgym](https://github.com/SeUniVr/RESTgym) for easy deployment and running on our platform.
 
-You can test your tool on the REST APIs provided in the `apis` directory of this repository (see the specific [README](apis/README.md) for details). An example testing tool is provided in the `tools` directory of this repository (see the specific [README](tools/README.md) for details).
+> All tools will be run with a time budget of **one hour** for each API; experiments will be repeated **ten times**, averaging the results.
 
-> **TODO:** section to be expanded
+You can test your tool on the REST APIs provided in the `apis` directory of this repository (see the specific [apis/README](apis/README.md) for details) and on the APIs available in RESTgym. 
