@@ -23,15 +23,15 @@ Tools must meet the following general requirements to participate
 * **Target:** Must be explicitly designed to test REST APIs
 * **Containerized:** Submissions must be easily deployable, via a Docker image
 
-In particular, the tools must be compatible with [RESTgym](https://github.com/SeUniVr/RESTgym), a benchmarking infrastructure specifically designed for REST API testing tools. *Check [here](README.md#🔍-testing-the-testing-tool) the details of our experimental setting*. 
+In particular, the tools must be compatible with [RESTgym](https://github.com/SeUniVr/RESTgym), a benchmarking infrastructure specifically designed for REST API testing tools. *Check [here](README#🔍-testing-the-testing-tool) the details of our experimental setting*. 
 
 ### 📊 Evaluation Criteria
 
 Tools will be scored based on a comprehensive set of criteria, focusing on both **quality of testing** and **resource efficiency**
 
 1. **Fault Detection:** The total number of *unique* `5XX` responses obtained by the tool
-2. **Operation Coverage:** The extent of API endpoints succesfully tested (obtaining a `2XX` response)
-3. **Code Coverage:** The extent of API code effectively explored during testing (measuread in terms of methods, statements, and branches covered)
+2. **Operation Coverage:** The extent of API endpoints successfully tested (obtaining a `2XX` response)
+3. **Code Coverage:** The extent of API code effectively explored during testing (measured in terms of methods, statements, and branches covered)
 4. **Testing Efficiency:** The time taken and the number of requests needed to achieve the fault and coverage results
 
 The final score will be a weighted aggregate of these metrics. Testing metrics will be collected by using the [Restats](https://github.com/SeUniVr/restats) tool.
@@ -43,7 +43,7 @@ The final score will be a weighted aggregate of these metrics. Testing metrics w
 3. **Submit:** Provide access to your tool, along with detailed setup and execution instructions
 4. **Document:** Submit a short report (max 2 pages) documenting how the tool works
 
-> **Sandboxed Execution:** All submitted tools will be run in a secure, isolated, and controlled environment by REST League organizers. Details of the machine running the experiments will be provided after registration.
+> **Sandboxed Execution:** All submitted tools will be run in a secure, isolated, and controlled environment by REST League organizers. Details of the machine used to run the experiments will be provided after registration.
 
 ### 🗓️ Competition Timeline
 
