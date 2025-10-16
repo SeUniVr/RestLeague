@@ -68,17 +68,6 @@ Winning tools and their authors will be prominently featured on this GitHub page
 
 > **ACM Publication:** The tool report for *all participants* will be included in the SBFT@ICSE2026 proceedings and published by ACM.
 
-## 🤝 Organizers & Contact
-
-REST League is organized by
-
-  * **Michele Pasqua**, Univ. of Verona **@** [`michele.pasqua@univr.it`](mailto:michele.pasqua@univr.it)
-  * **Mariano Ceccato**, Univ. of Verona **@** [`mariano.ceccato@univr.it`](mailto:mariano.ceccato@univr.it)
-  * **Sofia Mari**, Univ. of Verona **@** [`sofia.mari@univr.it`](mailto:sofia.mari@univr.it)
-  * **Davide Corradini**, Univ. of Luxembourg **@** [`davide.corradini@uni.lu`](mailto:davide.corradini@uni.lu)
-
-If you have questions, feel free to reach out to us!
-
 ## 🚀 Boostrapping
 
 To quickly develop your REST API testing tool, you can consider using the [RestTestGen Framework](https://github.com/SeUniVr/RestTestGen). The framework provides many ready-to-use components to:
@@ -99,3 +88,14 @@ Before submitting your tool to REST League, please check its compliance with [RE
 > All tools will be run with a time budget of **one hour** for each API; experiments will be repeated **ten times**, averaging the results.
 
 You can test your tool on the REST APIs provided in the `apis` directory of this repository (see the specific [apis/README](apis/README.md) for details) and on the APIs available in RESTgym. 
+
+## 🤝 Organizers & Contact
+
+REST League is organized by
+
+  * **Michele Pasqua**, Univ. of Verona **@** [`michele.pasqua@univr.it`](mailto:michele.pasqua@univr.it)
+  * **Mariano Ceccato**, Univ. of Verona **@** [`mariano.ceccato@univr.it`](mailto:mariano.ceccato@univr.it)
+  * **Sofia Mari**, Univ. of Verona **@** [`sofia.mari@univr.it`](mailto:sofia.mari@univr.it)
+  * **Davide Corradini**, Univ. of Luxembourg **@** [`davide.corradini@uni.lu`](mailto:davide.corradini@uni.lu)
+
+If you have questions, feel free to reach out to us!
