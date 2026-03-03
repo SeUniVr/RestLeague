@@ -55,7 +55,7 @@ REST League will be hosted by [SBFT@ICSE2026](https://search-based-and-fuzz-test
 | **[05/12/2025]** | Final Deadline for Tool Submission |
 | **[01/01/2026]** | Notification of results |
 | **[26/01/2026]** | Tool report camera ready deadline |
-| **TBA** | **REST League Awards Ceremony** |
+| **[12/04/2026]** | **REST League Awards Ceremony** |
 
 ### 🏆 Awards & Recognition
 
@@ -67,6 +67,21 @@ REST League will be hosted by [SBFT@ICSE2026](https://search-based-and-fuzz-test
 Winning tools and their authors will be prominently featured on this GitHub page, recognized at the Awards Ceremony, and invited to present their tool during [SBFT@ICSE2026](https://search-based-and-fuzz-testing.github.io/sbft26) in Rio.
 
 > **ACM Publication:** The tool report for *all participants* will be included in the SBFT@ICSE2026 proceedings and published by ACM.
+
+## 👑 Competition Results
+
+This first edition of REST League received **five** submissions, comprising industry-ready tools and research prototypes:
+- `AutoRestTest` @ [GitHub](https://github.com/selab-gatech/AutoRestTest)
+- `CATS` @ [GitHub](https://github.com/Endava/cats)
+- `EvoMaster` @ [GitHub](https://github.com/WebFuzzing/EvoMaster)
+- `RESTest` @ [GitHub](https://github.com/isa-group/RESTest)
+- `Schemathesis` @ [GitHub](https://github.com/schemathesis/schemathesis) 
+
+> 🥇
+> 
+> The ultimate champion of the competition is `AutoRestTest` which achieved the **Gold API Tester** badge!
+
+Detailed results can be found in the competition [report](report.pdf).
 
 ## 🚀 Boostrapping
 
