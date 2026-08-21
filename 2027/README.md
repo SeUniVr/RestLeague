@@ -10,7 +10,6 @@ This year, the competition will be part of the *49<sup>th</sup> International Co
 
 Participants submit their automated **black-box** testing tools to compete against a benchmark set of **REST APIs**. These APIs contain a variety of intentionally injected issues, ranging from functional defects to common security flaws.
 
-> [!TIP]
 > What is **black-box** testing?
 >
 > In this context, black-box testing means the tools interact with an API solely via its public endpoints, documented by an **OpenAPI specification**. Tools **generate test cases** by leveraging the specification and the feedback from the API, without looking at the API's internal implementation.
@@ -72,8 +71,8 @@ All runs will execute in an organizer-controlled sandbox, deployed on proprietar
 
 Experiments will be executed on a 128-core machine with 386GB of RAM, enabling parallel testing sessions. To each tool, 8 cores and 16GB of RAM will be reserved. The machine used in the experiments is equipped with an Nvidia RTX 4090 video card, available for the tools.
 
-> [!IMPORTANT]
-> **LLM Adoption:** To regulate language model usage, remotely accessed LLMs are forbidden. Competing tools can use small or large language models, given they can be locally run on the evaluation platform.
+> **LLM Adoption** <br>
+> To regulate language model usage, remotely accessed LLMs are forbidden. Competing tools can use small or large language models, given they can be locally run on the evaluation platform.
 
 #### REST APIs
 
@@ -102,8 +101,8 @@ Submissions will undergo a *single-blind* peer-review process to assess their te
 - Papers must be limited to **4 pages** (including references)
 - Papers must follow the host conference's formatting guidelines (details [here](https://conf.researchr.org/track/icse-2027/icse-2027-research-track#submission-process))
 
-> [!NOTE]
-> **IEEE Publication:** Accepted solution papers will be included in the ICSE2027 proceedings and published by IEEE.
+> **IEEE Publication** <br>
+> Accepted solution papers will be included in the ICSE2027 proceedings and published by IEEE.
 
 Authors of accepted solution papers are required to **present their tool** during the competition conference session. The session will be part of the [ICSE2027](https://conf.researchr.org/home/icse-2027) program, scheduled from 25 April, 2027 to 1 May, 2027.
 
