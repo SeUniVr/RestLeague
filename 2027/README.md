@@ -159,6 +159,4 @@ If you have questions, feel free to reach out to us!
 
 <br>
 
----
-
 [^1]: M. Kim, S. Sinha, and A. Orso. *"Adaptive REST API Testing with Reinforcement Learning"*. In Proceedings of the 38<sup>th</sup> IEEE/ACM International Conference on Automated Software Engineering. ASE2023. IEEE Press, 2024, pp. 446-458.
