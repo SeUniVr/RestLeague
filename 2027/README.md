@@ -2,19 +2,20 @@
 
 Welcome to **REST League 2027**, the 2<sup>nd</sup> edition of the ultimate competition for automated **black-box testing** tools designed for **RESTful APIs**.
 
-> 🎖️ Accepted to the [ICSE2027](https://conf.researchr.org/home/icse-2027) Competition Track 🎖️
-
 The goal of REST League is to evaluate the performance of open-source and proprietary tools in finding bugs, security vulnerabilities, and logic flaws in real-world REST APIs without access to their source code.
+
+This year, the competition will be part of the *49<sup>th</sup> International Conference on Software Engineering* ([ICSE2027](https://conf.researchr.org/home/icse-2027)), contributing to the Competition Track. Details of previous editions can be found [here](../).
 
 ## 🎯 The Challenge
 
 Participants submit their automated **black-box** testing tools to compete against a benchmark set of **REST APIs**. These APIs contain a variety of intentionally injected issues, ranging from functional defects to common security flaws.
 
+> [!TIP]
 > What is **black-box** testing?
 >
 > In this context, black-box testing means the tools interact with an API solely via its public endpoints, documented by an **OpenAPI specification**. Tools **generate test cases** by leveraging the specification and the feedback from the API, without looking at the API's internal implementation.
 
-All tools in the competition will be provided with the OpenAPI specification (JSON/YAML) of the REST API to tests, the APIs endpoint, and any required authentication material (e.g., API keys). Tools will not receive the API's source code, database schema, or internal logs.
+All tools in the competition will be provided with the OpenAPI specification (JSON/YAML) of the REST API to test, the API's endpoint, and any required authentication material (e.g., API keys). Tools will not receive the API's source code, database schema, or internal logs.
 
 The *output expected from a tool* is a sequence of HTTP requests/responses (the test cases actually executed against the API) that are used to compute the evaluation metrics.
 
@@ -32,12 +33,12 @@ In particular, the tools must be compatible with [RESTgym](https://github.com/Se
 
 ### 📊 Evaluation Criteria
 
-Tools will be scored based on a comprehensive set of criteria, focusing on both *quality of testing* and *resource efficiency*.
+Tools will be scored based on a comprehensive set of criteria that focus on both *quality of testing* and *resource efficiency*.
 
 1. **Fault Detection:** The total number of *unique* `5XX` responses obtained by the tool
 2. **Operation Coverage:** The extent of API endpoints successfully tested (obtaining a `2XX` response)
 3. **Code Coverage:** The extent of API code effectively explored during testing (measured in terms of methods, statements, and branches covered)
-4. **Testing Efficiency:** The time (AUC) taken needed to achieve the fault and coverage results
+4. **Testing Efficiency:** The time (AUC) needed to achieve the fault and coverage results
 
 The final score will be a weighted aggregate of these metrics. 
 
@@ -46,20 +47,20 @@ Testing metrics will be collected by using the [Restats](https://github.com/SeUn
 
 ### 🏆 Awards & Recognition
 
-REST League features a badge-based challenge structure, to highlight tool strengths along distinct dimensions.
+REST League features a badge-based challenge structure to highlight tool strengths along distinct dimensions.
 
 - *Fault Detection Challenge*, ranking scores based on the Unique Faults metrics, averaged across all APIs and Z-score normalized
 - *Efficiency Challenge*, ranking scores based on the unweighted sum of Z-score-normalized Unique Faults AUC, Operations Covered AUC, and Code Coverage AUC metrics
 - *Effectiveness Challenge*, ranking scores based on the unweighted sum of Z-score-normalized Unique Faults, Operations Covered, and Code Coverage metrics
 
-The best performing tool for each challenge will be awarded with a badge.
+The best-performing tool for each challenge will be awarded a badge.
 
 🥇 **Gold API Tester:** Tool with the highest overall score, winner of the Effectiveness Challenge. <br>
 🥈 **Silver API Tester:** Tool with the second-highest overall score, runner-up of the Effectiveness Challenge. <br>
 🐞 **Bug Hunter:** Tool with the highest number of unique `5XX` found, winner of the Fault detection Challenge. <br>
 ⚡ **Roadrunner:** Tool that achieves the highest coverage with the lowest resource consumption footprint, winner of the Efficiency Challenge.
 
-> The tool earning the *Gold API Tester* badge is also the competition's ultimate champion.
+The tool earning the *Gold API Tester* badge is also the competition's **ultimate champion**.
 
 Winning tools and their authors will be prominently featured on this GitHub page, recognized at the Awards Ceremony, and invited to present their tool during [ICSE2027](https://conf.researchr.org/home/icse-2027) in Dublin.
 
@@ -67,11 +68,12 @@ Winning tools and their authors will be prominently featured on this GitHub page
 
 Tools will be run by using [RESTgym](https://github.com/SeUniVr/RESTgym), with a time budget of **one hour** for each API. Testing sessions will be repeated **five** times, collecting average results.
 
-All runs will execute in an organizer-controlled sandbox, deployed on proprietary hardware. Network access from within the sandbox is restricted to the target APIs endpoint only. Metrics will be collected by the independent, organizer-run Restats tool included in RESTgym.
+All runs will execute in an organizer-controlled sandbox, deployed on proprietary hardware. Network access from within the sandbox is restricted to the target API's endpoint only. Metrics will be collected by the independent, organizer-run Restats tool included in RESTgym.
 
 Experiments will be executed on a 128-core machine with 386GB of RAM, enabling parallel testing sessions. To each tool, 8 cores and 16GB of RAM will be reserved. The machine used in the experiments is equipped with an Nvidia RTX 4090 video card, available for the tools.
 
-> **LLM Adoption:** To regulate language models usage, remotely accessed LLMs are forbidden. Competing tools can use small or large language models, given they can locally run on the evaluation platform.
+> [!IMPORTANT]
+> **LLM Adoption:** To regulate language model usage, remotely accessed LLMs are forbidden. Competing tools can use small or large language models, given they can be locally run on the evaluation platform.
 
 #### REST APIs
 
@@ -92,7 +94,6 @@ Submit your tool via [EasyChair](https://easychair.org) by 9 October, 2026. We k
 2. **Prepare:** Ensure your tool meets all requirements and is ready for deployment
 3. **Submit:** Submit your tool via the *EasyChair* interface, along with detailed setup and execution instructions
 
-
 ### 📚 Publication & Presentation
 
 All authors of tools participating in the competition can submit a *solution paper* describing the tool's approach used to tackle the competition problem. The paper should also discuss the evolution of the tool with respect to previous versions (if any).
@@ -101,11 +102,10 @@ Submissions will undergo a *single-blind* peer-review process to assess their te
 - Papers must be limited to **4 pages** (including references)
 - Papers must follow the host conference's formatting guidelines (details [here](https://conf.researchr.org/track/icse-2027/icse-2027-research-track#submission-process))
 
-<br>
-
+> [!NOTE]
 > **IEEE Publication:** Accepted solution papers will be included in the ICSE2027 proceedings and published by IEEE.
 
-Authors of accepted solution papers are required to **present their tool** during the competition conference session. The session will be part of the [ICSE2027](https://conf.researchr.org/home/icse-2027) program.
+Authors of accepted solution papers are required to **present their tool** during the competition conference session. The session will be part of the [ICSE2027](https://conf.researchr.org/home/icse-2027) program, scheduled from 25 April, 2027 to 1 May, 2027.
 
 ### 🗓️ Competition Timeline
 
@@ -113,14 +113,14 @@ REST League 2027 will be hosted by [ICSE2027](https://conf.researchr.org/home/ic
 
 | Date (AoE) | Event |
 | :--- | :--- |
-| **[25 August, 2026]**   | Call for Participation Opens |
-| **[9 October, 2026]**   | Deadline for Tool Submission |
-| **[13 November, 2026]** | Notification of Competition Results |
-| **[4 December, 2026]**  | Deadline for Solution Paper Submission |
-| **[16 December, 2026]** | Solution Papers Response |
-| **[6 January, 2027]**   | Deadline for Solution Paper Revision |
-| **[13 January, 2027]**  | Solution Papers Final Notification |
-| **[20 January, 2027]**  | Deadline for Camera-ready Material |
+| **25 August, 2026**   | Call for Participation Opens |
+| **9 October, 2026**   | Deadline for Tool Submission |
+| **13 November, 2026** | Notification of Competition Results |
+| **4 December, 2026**  | Deadline for Solution Paper Submission |
+| **16 December, 2026** | Solution Papers Response |
+| **6 January, 2027**   | Deadline for Solution Paper Revision |
+| **13 January, 2027**  | Solution Papers Final Notification |
+| **20 January, 2027**  | Deadline for Camera-ready Material |
 | **TBA** | **REST League Awards Ceremony** |
 
 ## 👑 Competition Results
