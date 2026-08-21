@@ -86,7 +86,7 @@ The benchmark will consist of the following *known* REST APIs (all available in 
 
 ## 💡 How to Participate
 
-Submit your tool via [EasyChair](https://easychair.org) by 10 November, 2026. We kindly ask interested participants to fill out this [Registration Form](https://forms.gle) before submitting the tool.
+Submit your tool via [EasyChair](https://easychair.org) by 9 October, 2026. We kindly ask interested participants to fill out this [Registration Form](https://forms.gle) before submitting the tool.
 
 1. **Register:** Fill out the *Registration Form* to officially enter your tool
 2. **Prepare:** Ensure your tool meets all requirements and is ready for deployment
@@ -113,14 +113,14 @@ REST League 2027 will be hosted by [ICSE2027](https://conf.researchr.org/home/ic
 
 | Date (AoE) | Event |
 | :--- | :--- |
-| **[25/08/2026]** | Call for Participation Opens |
-| **[09/10/2026]** | Deadline for Tool Submission |
-| **[13/11/2026]** | Notification of Competition Results |
-| **[04/12/2026]** | Deadline for Solution Paper Submission |
-| **[16/12/2026]** | Solution Papers Response |
-| **[06/01/2027]** | Deadline for Solution Paper Revision |
-| **[13/01/2027]** | Solution Papers Final Notification |
-| **[20/01/2027]** | Deadline for Camera-ready Material |
+| **[25 August, 2026]**   | Call for Participation Opens |
+| **[9 October, 2026]**   | Deadline for Tool Submission |
+| **[13 November, 2026]** | Notification of Competition Results |
+| **[4 December, 2026]**  | Deadline for Solution Paper Submission |
+| **[16 December, 2026]** | Solution Papers Response |
+| **[6 January, 2027]**   | Deadline for Solution Paper Revision |
+| **[13 January, 2027]**  | Solution Papers Final Notification |
+| **[20 January, 2027]**  | Deadline for Camera-ready Material |
 | **TBA** | **REST League Awards Ceremony** |
 
 ## 👑 Competition Results
