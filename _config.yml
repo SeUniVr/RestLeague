@@ -1,5 +1,0 @@
-# Configure Jekyll to parse GitHub Flavored Markdown (GFM)
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
