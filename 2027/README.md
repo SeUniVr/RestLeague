@@ -82,8 +82,8 @@ The benchmark will consist of the following *known* REST APIs (all available in 
 - Kafka REST Proxy ([GitHub](https://github.com/confluentinc/kafka-rest))
 - Flight Search API ([GitHub](https://github.com/Rapter1990/flightsearchapi)) 
 - Gestao Hospital ([GitHub](https://github.com/ValchanOficial/GestaoHospital)) 
-- Blog API
-- Project Tracking System
+- NoteBook Manager ([GitHub](https://github.com/birddevelper/NoteBookManager))
+- REST PetClinic ([GitHub](https://github.com/spring-petclinic/spring-petclinic-rest))
 
 ## 💡 How to Participate
 
@@ -92,6 +92,10 @@ Submit your tool via [EasyChair](https://easychair.org/conferences/?conf=restlea
 1. **Register:** Register your tool by providing the tool name and authors via EasyChair 
 2. **Prepare:** Ensure your tool meets all requirements and is ready for deployment
 3. **Submit:** Submit your tool via EasyChair, along with detailed setup and execution instructions
+
+Upon submission, authors need to provide the tool source code and a Dockerfile enabling the building of a RESTgym-compliant container image.
+
+> Authors of non-open-source tools or tools under specific intellectual property constraints are asked to directly contact the organizers. 
 
 ### 📚 Publication & Presentation
 
