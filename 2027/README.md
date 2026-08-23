@@ -87,11 +87,11 @@ The benchmark will consist of the following *known* REST APIs (all available in 
 
 ## 💡 How to Participate
 
-Submit your tool via [EasyChair](https://easychair.org) by 9 October, 2026. We kindly ask interested participants to fill out this [Registration Form](https://forms.gle) before submitting the tool.
+Submit your tool via [EasyChair](https://easychair.org/conferences/?conf=restleague2027) by **9 October, 2026**. For organizational purposes, we kindly ask interested participants to submit a partial submission (with at least the tool name and authors) even if the tool is not yet ready. *Submissions can be freely updated until 9 October, 2026*.
 
-1. **Register:** Fill out the *Registration Form* to officially enter your tool
+1. **Register:** Register your tool by providing the tool name and authors via EasyChair 
 2. **Prepare:** Ensure your tool meets all requirements and is ready for deployment
-3. **Submit:** Submit your tool via the *EasyChair* interface, along with detailed setup and execution instructions
+3. **Submit:** Submit your tool via EasyChair, along with detailed setup and execution instructions
 
 ### 📚 Publication & Presentation
 
@@ -99,7 +99,7 @@ All authors of tools participating in the competition can submit a *solution pap
 
 Submissions will undergo a *single-blind* peer-review process to assess their technical correctness.
 - Papers must be limited to **4 pages** (including references)
-- Papers must follow the host conference's formatting guidelines (details [here](https://conf.researchr.org/track/icse-2027/icse-2027-research-track#submission-process))
+- Papers must follow ICSE2027 formatting guidelines (details [here](https://conf.researchr.org/track/icse-2027/icse-2027-research-track#submission-process))
 
 > **IEEE Publication** <br>
 > Accepted solution papers will be included in the ICSE2027 proceedings and published by IEEE.
@@ -112,7 +112,7 @@ REST League 2027 will be hosted by [ICSE2027](https://conf.researchr.org/home/ic
 
 | Date (AoE) | Event |
 | :--- | :--- |
-| **25 August, 2026**   | Call for Participation Opens |
+| **24 August, 2026**   | Call for Participation Opens |
 | **9 October, 2026**   | Deadline for Tool Submission |
 | **13 November, 2026** | Notification of Competition Results |
 | **4 December, 2026**  | Deadline for Solution Paper Submission |
@@ -126,7 +126,7 @@ REST League 2027 will be hosted by [ICSE2027](https://conf.researchr.org/home/ic
 
 *TBA*
 
-## 🚀 Boostrapping
+## 🚀 Bootstrapping
 
 To quickly develop your REST API testing tool, you can consider using the [RestTestGen Framework](https://github.com/SeUniVr/RestTestGen). The framework provides many ready-to-use components to:
 - parse OpenAPI specifications
